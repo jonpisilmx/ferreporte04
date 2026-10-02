@@ -614,15 +614,15 @@
     <header>
       <span class="profile-handle">@soyfernandarangel</span>
       <h1>Análisis de Pauta & Crecimiento</h1>
-      <p class="subtitle">Desempeño de Anuncios y Conversión a Seguidores</p>
+      <p class="subtitle">Desempeño Acumulado de Anuncios y Conversión a Seguidores</p>
     </header>
 
     <!-- Optimization Alert -->
     <section class="alert-card">
       <div class="alert-icon">🛠️</div>
       <div class="alert-content">
-        <h3>Optimizaciones de Pauta Directa</h3>
-        <p>Se detendrá la publicación menos eficiente (<em>Sep 30: "Esta es la señal..."</em>) y se dejará correr hasta su finalización planificada únicamente el <strong>Reel Estrella</strong> (CPV extraordinario de <strong>$0.22 MXN</strong>).</p>
+        <h3>Estrategia de Optimización Directa</h3>
+        <p>Se detendrá la publicación menos eficiente (<em>Sep 30: "Esta es la señal..."</em>) y se mantendrá únicamente activo el <strong>Reel Estrella</strong> (CPV récord de <strong>$0.22 MXN</strong>) hasta su finalización planificada.</p>
       </div>
     </section>
 
@@ -636,15 +636,15 @@
       <div class="growth-grid">
         <div class="g-box">
           <div class="g-label">Views Totales</div>
-          <div class="g-val">12,980</div>
+          <div class="g-val">15,389</div>
         </div>
         <div class="g-box">
           <div class="g-label">Visitas Perfil</div>
-          <div class="g-val">1,620</div>
+          <div class="g-val">1,724</div>
         </div>
         <div class="g-box">
           <div class="g-label">Costo/Seg.</div>
-          <div class="g-val" style="color: #059669;">$5.03</div>
+          <div class="g-val" style="color: #059669;">$7.84</div>
         </div>
       </div>
 
@@ -672,14 +672,14 @@
           </div>
         </div>
         <div class="quality-highlight">
-          ✨ Esta secuencia de acciones conscientes incrementa notablemente la retención y valor cualitativo de cada seguidor ganado.
+          ✨ Esta secuencia de múltiples acciones conscientes incrementa notablemente la calidad, retención y valor de cada seguidor ganado.
         </div>
       </div>
     </section>
 
     <!-- Publicación Ganadora -->
     <section class="winner-card">
-      <div class="winner-tag">🏆 97.2% DE LAS VISITAS</div>
+      <div class="winner-tag">🏆 91.6% DE LAS VISITAS</div>
       <div class="winner-title">Reel Estrella Activo</div>
       <div class="winner-name">Reel Sep 28: "Fuertes declaraciones d..."</div>
 
@@ -687,12 +687,12 @@
         <div class="stat-box">
           <div class="stat-label">Costo x Visita</div>
           <div class="stat-number">$0.22</div>
-          <div class="stat-subtext">vs $3.45 del resto</div>
+          <div class="stat-subtext">vs $3.02 promedio otros</div>
         </div>
         <div class="stat-box">
           <div class="stat-label">Visitas Generadas</div>
-          <div class="stat-number">1,575</div>
-          <div class="stat-subtext">1,575 de 1,620 totales</div>
+          <div class="stat-number">1,579</div>
+          <div class="stat-subtext">1,579 de 1,724 totales</div>
         </div>
       </div>
     </section>
@@ -700,16 +700,16 @@
     <!-- Gráfica -->
     <section class="chart-card">
       <h2 class="section-title">Visitas Generadas vs Costo</h2>
-      <p class="section-desc">Comparativa de volumen de visitas al perfil y costo unitario por clic/visita.</p>
+      <p class="section-desc">Comparativa del volumen total de visitas e inversión unitaria en los 4 anuncios de la campaña.</p>
       
       <div class="chart-wrapper">
         <canvas id="performanceChart"></canvas>
       </div>
     </section>
 
-    <!-- Lista por Reel -->
+    <!-- Lista por Reel con botones para abrir Modal -->
     <section class="comparison-list">
-      <h2 class="section-title" style="margin-left: 4px;">Detalle por Anuncio</h2>
+      <h2 class="section-title" style="margin-left: 4px;">Detalle de la Campaña (4 Anuncios)</h2>
 
       <!-- Reel Estrella (Ganador) -->
       <article class="reel-item" style="border: 1.5px solid #86efac;">
@@ -720,11 +720,11 @@
         <div class="reel-metrics">
           <div>
             <div class="m-label">Gasto</div>
-            <div class="m-val">$353.06</div>
+            <div class="m-val">$353.56</div>
           </div>
           <div>
             <div class="m-label">Visitas</div>
-            <div class="m-val">1,575</div>
+            <div class="m-val">1,579</div>
           </div>
           <div>
             <div class="m-label">CPV</div>
@@ -736,16 +736,16 @@
         </button>
       </article>
 
-      <!-- Reel Ineficiente (A Detener) -->
+      <!-- Reel Sep 30 (Inactivo / No se muestra) -->
       <article class="reel-item" style="opacity: 0.8; background: #fffdfa;">
         <div class="reel-header">
           <span class="reel-name">Reel Sep 30: Esta es la señal que est...</span>
-          <span class="reel-badge badge-amber">Por Detener</span>
+          <span class="reel-badge badge-amber">No se muestra</span>
         </div>
         <div class="reel-metrics">
           <div>
             <div class="m-label">Gasto</div>
-            <div class="m-val">$155.33</div>
+            <div class="m-val">$157.97</div>
           </div>
           <div>
             <div class="m-label">Visitas</div>
@@ -753,30 +753,74 @@
           </div>
           <div>
             <div class="m-label">CPV</div>
-            <div class="m-val" style="color: #dc2626;">$3.45</div>
+            <div class="m-val" style="color: #dc2626;">$3.51</div>
           </div>
         </div>
         <button class="btn-view-reel" onclick="openModal('reel2')">
           <span>👁️</span> Ver publicación
         </button>
       </article>
+
+      <!-- Reel Sep 29 (En Pausa) -->
+      <article class="reel-item" style="opacity: 0.75; background: #f8fafc;">
+        <div class="reel-header">
+          <span class="reel-name">Reel Sep 29: Planificar juntos es u...</span>
+          <span class="reel-badge badge-rose">En Pausa</span>
+        </div>
+        <div class="reel-metrics">
+          <div>
+            <div class="m-label">Gasto</div>
+            <div class="m-val">$177.12</div>
+          </div>
+          <div>
+            <div class="m-label">Visitas</div>
+            <div class="m-val">66</div>
+          </div>
+          <div>
+            <div class="m-label">CPV</div>
+            <div class="m-val" style="color: #dc2626;">$2.68</div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Reel Sep 28 Mamá (En Pausa) -->
+      <article class="reel-item" style="opacity: 0.75; background: #f8fafc;">
+        <div class="reel-header">
+          <span class="reel-name">Reel Sep 28: ¿Alguna mamá por aquí...</span>
+          <span class="reel-badge badge-rose">En Pausa</span>
+        </div>
+        <div class="reel-metrics">
+          <div>
+            <div class="m-label">Gasto</div>
+            <div class="m-val">$103.41</div>
+          </div>
+          <div>
+            <div class="m-label">Visitas</div>
+            <div class="m-val">34</div>
+          </div>
+          <div>
+            <div class="m-label">CPV</div>
+            <div class="m-val" style="color: #dc2626;">$3.04</div>
+          </div>
+        </div>
+      </article>
     </section>
 
     <!-- Total Acumulado -->
     <section class="total-card">
-      <div class="total-header">💰 Promedios & Totales de Inversión</div>
+      <div class="total-header">💰 Totales de Inversión Consolidados</div>
       <div class="total-grid">
         <div class="t-box">
           <div class="t-label">Inversión Total</div>
-          <div class="t-val">$508.39</div>
+          <div class="t-val">$792.06</div>
         </div>
         <div class="t-box">
           <div class="t-label">Costo / View</div>
-          <div class="t-val">$0.04</div>
+          <div class="t-val">$0.05</div>
         </div>
         <div class="t-box">
           <div class="t-label">Costo / Follower</div>
-          <div class="t-val">$5.03</div>
+          <div class="t-val">$7.84</div>
         </div>
       </div>
     </section>
@@ -787,11 +831,11 @@
       <ul class="insights-list">
         <li>
           <span>1</span>
-          <div><strong>Foco Exclusivo en el Ganador:</strong> Detener definitivamente la prueba del Sep 30 asegurará que todo el presupuesto de $120/día alimente de forma óptima al Reel Estrella, reduciendo aún más el costo general por adquisición.</div>
+          <div><strong>Foco Presupuestal Único:</strong> Al mantener pausados los otros 3 anuncios ($438.50 MXN invertidos en conjunto para solo 145 visitas), concentrar los $120/día en el Reel Estrella garantiza el máximo rendimiento de cada peso.</div>
         </li>
         <li>
           <span>2</span>
-          <div><strong>Apalancamiento Orgánico:</strong> Al alcanzar un costo histórico de $5.03 MXN por seguidor, la estrategia de retenerlos con contenidos de valor en el feed mantendrá la curva de crecimiento acelerada.</div>
+          <div><strong>Retención de Audiencia:</strong> Con 101 nuevos seguidores calificados ganados a un costo promedio de $7.84 MXN, mantener publicaciones e historias enfocadas en soluciones financieras mantendrá el engagement del nuevo público.</div>
         </li>
       </ul>
     </section>
@@ -845,23 +889,25 @@
     new Chart(ctx, {
       type: 'bar',
       data: {
-        labels: ['Reel Sep 30 (Por Detener)', 'Reel Sep 28 (Estrella Activo)'],
+        labels: ['Reel Sep 28 (Estrella)', 'Reel Sep 30', 'Reel Sep 29', 'Reel Sep 28 (Mamá)'],
         datasets: [
           {
             label: 'Visitas al Perfil',
-            data: [45, 1575],
+            data: [1579, 45, 66, 34],
             backgroundColor: [
+              'rgba(16, 185, 129, 0.85)',
               'rgba(245, 158, 11, 0.45)',
-              'rgba(16, 185, 129, 0.85)'
+              'rgba(168, 85, 247, 0.45)',
+              'rgba(244, 63, 94, 0.45)'
             ],
-            borderColor: ['#f59e0b', '#10b981'],
+            borderColor: ['#10b981', '#f59e0b', '#a855f7', '#f43f5e'],
             borderWidth: 2,
             borderRadius: 12,
             yAxisID: 'y'
           },
           {
             label: 'Costo por Visita ($)',
-            data: [3.45, 0.22],
+            data: [0.22, 3.51, 2.68, 3.04],
             type: 'line',
             borderColor: '#f59e0b',
             backgroundColor: '#f59e0b',
